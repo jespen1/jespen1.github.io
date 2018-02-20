@@ -1,4 +1,5 @@
 header { text-align: center;color:#DA06CD }
 body { font-family:cursive; background-color:#F0D6EE }
-subtitle "{color: #80015D }"
+.subtitle {color:#80015D }
+.title {color:#DA06CD}
 #masthead {color:#DA06CD }
