@@ -24,7 +24,7 @@ let projectArray2 = [
 ]
 
 let projectObject2 = {
-  id:2
+  id:2,
   url:'https://www.arcgis.com/apps/View/index.html?appid=dc4d335ae4d64fa7a596931fc7f673b2',
   title:'Book Assignment 2',
   desc:'4.5+ Magnitude Earthquakes around the world.',

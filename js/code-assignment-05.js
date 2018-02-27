@@ -2,8 +2,8 @@ let projectData = []
 
 projectData[0] = {
   id: 1,
-  url: 'http://arcg.is/2EOzxhz'
-  title: 'Book Assignment 1'
+  url: 'http://arcg.is/2EOzxhz',
+  title: 'Book Assignment 1',
   desc: 'Tour of Lakeview Louisiana, where I went to high school.',
   thumb: true,
   keywords: ['Lakeview', 'Louisiana', 'story map', 'tour']
