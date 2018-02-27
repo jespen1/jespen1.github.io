@@ -1,9 +1,9 @@
 let projectId = 1
-let projecttitle = "Earthquake Map"
+let projectTitle = "Earthquake Map"
 let thumbnail = true
-let projecttitles = ["Earthquake Map", "Map of Earthquake magnitude 4.5 or greater"]
+let projectTitles = ["Earthquake Map", "Map of Earthquake magnitude 4.5 or greater"]
 
 console.log(projectId)
-console.log(projecttitle)
+console.log(projectTitle)
 console.log(thumbnail)
-console.log(projecttitles)
+console.log(projectTitles)

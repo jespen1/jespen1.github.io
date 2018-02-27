@@ -6,8 +6,8 @@ projectData[0] = {
   title: 'Book Assignment 1'
   desc: 'Tour of Lakeview Louisiana, where I went to high school.',
   thumb: true,
-  keywords: ['Lakeview', 'Louisiana', 'story map', 'arcgis online']
-},
+  keywords: ['Lakeview', 'Louisiana', 'story map', 'tour']
+}
 
 projectData[1] = {
   id:2,
@@ -15,13 +15,21 @@ projectData[1] = {
   title:'Book Assignment 2',
   desc:'4.5+ Magnitude Earthquakes around the world.',
   thumb: false,
-  keywords: ['USGS', 'earthquakes', 'arcgis online']
+  keywords: ['Earthquakes', 'USGS', 'ArcGIS']
 }
 
-for (let i = 0; i < projects.length; i++) {
-  if (projectData[i].title === '') {
-  console.log('')
+for (let i = 0; i < projectData.length; i++) {
+  if (projectData[i].title === true) {
+  console.log('BookAssignment0-' + projectData[i].id + '.png')
 } else {
-  console.log('')
+  console.log('logo.png')
+  }
+}
+
+for (let i = 0; i < projectData.length; i++) {
+  if (projectData[i].title === '') {
+    console.log('No title')
+  } else {
+    console.log(projectData[i].title)
   }
 }

@@ -7,7 +7,7 @@ let projectArray1 = [
 ]
 
 let projectObject = {
-  id: 2,
+  id: 1,
   url: 'http://arcg.is/2EOzxhz',
   title: 'Book Assignment 1',
   desc: 'Tour of Lakeview Louisiana, where I went to high school.',
@@ -15,7 +15,7 @@ let projectObject = {
 }
 
 let projectArray2 = [
-  1,
+  2,
   'https://www.arcgis.com/apps/View/index.html?appid=dc4d335ae4d64fa7a596931fc7f673b2',
   'Book Assignment 2',
   '4.5+ Magnitude Earthquakes around the world.',
@@ -41,6 +41,6 @@ console.log(projectArray[1])
 console.log(projectObject1.title)
 console.log(projectObject1["Book Assignment 1"])
 
-console.log(projectArray2[1])
+console.log(projectArray2[2])
 console.log(projectObject2.title)
 console.log(projectObject2["Book Assignment 2"])
