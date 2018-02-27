@@ -1,15 +1,15 @@
 let projectArray1 = [
   1,
   'http://arcg.is/2EOzxhz',
-  'Book Assignment 1'
+  'Book Assignment 1',
   'Tour of Lakeview Louisiana, where I went to high school.',
   true
 ]
 
 let projectObject = {
   id: 2,
-  url: 'http://arcg.is/2EOzxhz'
-  title: 'Book Assignment 1'
+  url: 'http://arcg.is/2EOzxhz',
+  title: 'Book Assignment 1',
   desc: 'Tour of Lakeview Louisiana, where I went to high school.',
   thumb: true,
 }
@@ -17,9 +17,9 @@ let projectObject = {
 let projectArray2 = [
   1,
   'https://www.arcgis.com/apps/View/index.html?appid=dc4d335ae4d64fa7a596931fc7f673b2',
-  'Book Assignment 2'
+  'Book Assignment 2',
   '4.5+ Magnitude Earthquakes around the world.',
-  true
+  true,
   ['BookAssignment2', 'Book', 'Assignment']
 ]
 
@@ -30,8 +30,8 @@ let projectObject2 = {
   desc:'4.5+ Magnitude Earthquakes around the world.',
   thumb: true,
   keywords: [
-    'BookAssignment2'
-    'Book'
+    'BookAssignment2',
+    'Book',
     'Assignment'
   ]
 }
