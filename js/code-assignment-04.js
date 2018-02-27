@@ -6,7 +6,7 @@ let projectArray1 = [
   true
 ]
 
-let projectObject = {
+let projectObject1 = {
   id: 1,
   url: 'http://arcg.is/2EOzxhz',
   title: 'Book Assignment 1',
@@ -37,7 +37,7 @@ let projectObject2 = {
 }
 
 
-console.log(projectArray[1])
+console.log(projectArray1[1])
 console.log(projectObject1.title)
 console.log(projectObject1["Book Assignment 1"])
 

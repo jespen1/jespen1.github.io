@@ -19,8 +19,8 @@ projectData[1] = {
 }
 
 for (let i = 0; i < projectData.length; i++) {
-  if (projectData[i].title === true) {
-  console.log('BookAssignment0-' + projectData[i].id + '.png')
+  if (projectData[i].thumb === true) {
+  console.log('BookAssignment-' + projectData[i].id + '.png')
 } else {
   console.log('logo.png')
   }
