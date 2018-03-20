@@ -6,4 +6,5 @@ function createThumbnail1 (thumb, id) {
     console.log('BookAssignment-' + id + '.png')
   } else {
     console.log('logo.png')
+  }
 }
