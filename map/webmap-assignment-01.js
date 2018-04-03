@@ -11,7 +11,7 @@ var pointB = new L.LatLng(29.82469,-90.016914);
 var pointList = [pointA, pointB];
 
 var firstpolyline = new L.Polyline(pointList, {
-    color: 'red',
+    color: 'purple',
     weight: 3,
     opacity: 0.5,
     smoothFactor: 1
