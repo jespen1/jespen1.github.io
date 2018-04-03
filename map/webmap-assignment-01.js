@@ -6,7 +6,6 @@ let basemap = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 L.tileLayer(basemap).addTo(JEmap)
 
 let marker = L.marker([29.854929,-89.990625]).addTo(JEmap)
-let marker = L.line([29.9,-89.99]).addTo(JEmap)
 
 let polygon = L.polygon([
   [29.851677, -89.982986],
