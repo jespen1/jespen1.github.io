@@ -4,7 +4,7 @@ let basemap = ('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
 L.tileLayer(basemap).addTo(JEmap3)
 
 let JEMarkerIcon = L.icon({
-  iconUrl: 'dogimage.png',
+  iconUrl: 'dogimage.jpg',
   iconSize: [38, 95], // size of the icon
   iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
   popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
@@ -18,8 +18,8 @@ let JEPoint = [
   [29.813303, -90.026760] ]
 
 let JEStyle = {
-  color: 'red',
-  fillColor: 'green'
+  color: 'pink',
+  fillColor: 'black'
 }
 
 let polygon = L.polygon(JEPoint, JEStyle).addTo(JEmap3);
