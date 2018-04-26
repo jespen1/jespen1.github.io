@@ -10,32 +10,29 @@ let myBasemaps = {
   'Dark Basemap': JEDarkMap1
 }
 
-let JEMarkerIcon = L.icon({
+L.control.layers(myBasemaps).addTo(JEMapFP)
+
+
+function createCustomIcon (feature, latlng) {
+  let JEMarkerIcon = L.icon({
   iconUrl: 'point.png',
   iconSize: [38, 95], // size of the icon
   iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
   popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
-})
+  })
 
-function createPopup (state, statelayer) {
-  let age = state.properties.Auth
-  statelayer.bindPopup('Zipcode ' + name + ': ' + age + '<br>National average: 38')
+  return L.marker(latlng, { icon: JEMarkerIcon })
 }
 
-JEGeojsonStyle = function (state) {
-  let ownership = state.properties.ownership
-  let stateColor = 'blue'
-  if (ownership== 'ARCH' ) {stateColor = 'pink'}
-  let myStyle = {
-    color: stateColor,
-    weight: 1,
-    }
-    return myStyle
+function createPopup (feature, layer) {
+  let JEMarkerIcon = feature.properties.NAME
+  layer.bindPopup('Name of school : ' + JEMarkerIcon)
 }
 
 
 JEGeojsonOptions = {
-  style: JEGeojsonStyle,
+  onEachFeature: createPopup,
+  pointToLayer: createCustomIcon
 }
 
 L.control.layers(myBasemaps).addTo(JEMapFP)
